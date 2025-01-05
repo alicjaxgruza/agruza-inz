@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+        <link rel="stylesheet" href="./style.css">
+        <script src="./Control.MiniMap.js"></script>
+        <link rel="stylesheet" href="./Control.MiniMap.css">
+    </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <img src="./ikony/miecze.svg" class="miecze">
+        <div>
+          <p class="header1">
+            The Witcher 3
+          </p>
+          <p class="header2">
+            Mapa przedstawiająca obiekty w Polsce nawiązujące do gry
+          </p> 
+          <p class="header3">Strona realizowana w ramach projektu inżynierskiego pt. "Mapa internetowa przedstawiająca nawiązania kulturowe w grze "Wiedźmin 3 - Dziki Gon"" </p>
+        </div>
+        <img src="./ikony/miecze.svg" class="miecze">
+      </div>
+      <div class="main">
+        <div id="map"></div>
+        <div class="boxes">
+          <div class="menu"> 
+            <p>Menu</p>
+            <img src="./ikony/click.svg" height= "24" width="24">
+          </div>
+          <div class="grid">
+            <button class="box" id="mlyn">
+              <img src="./ikony/mlyn.svg" height="auto" width="100px">
+              <p>Wielki młyn w Gdańsku</p>
+            </button>
+            <button class="box" id="drzewo">
+              <img src="./ikony/drzewo.svg" height="auto" width="100px">
+              <p>Dąb powstańców</p>
+            </button>
+            <button class="box" id="grod">
+              <img src="./ikony/grod.svg" height="auto" width="100px">
+              <p>Gród w Biskupinie</p>
+            </button>
+            <button class="box" id="zalipie">
+              <img src="./ikony/zalipie.svg" height="auto" width="100px">
+              <p>Domki we wsi Zalipie</p>
+            </button>
+            <button class="box" id="zuraw">
+              <img src="./ikony/zuraw.svg" height="auto" width="100px">
+              <p>Żuraw w Gdańsku</p>
+            </button>
+            <button class="box" id="wieza">
+              <img src="./ikony/wieza.svg" height="auto" width="100px">
+              <p>Mysia wieża w Kruszwicy</p>
+            </button>
+            <button class="box" id="wiatrak">
+              <img src="./ikony/wiatrak.svg" height="auto" width="100px">
+              <p>Wiatrak w Maurzycach</p>
+            </button>
+            <button class="box" id="dworek">
+              <img src="./ikony/wianek.svg" height="auto" width="100px">
+              <p>Dworek Rydlówka w Bronowicach</p>
+            </button>
+            <button class="box" id="gdansk">
+              <img src="./ikony/novigrad_k.svg" height="auto" width="100px">
+              <p>Wolne miasto Gdańsk</p>
+            </button> 
+          </div>
+        </div>
+    </div>
+    <p class="footer">Alicja Gruza</p>
+    </div>
+
+    <script src="./leaflet-polygon.fillPattern.js"></script>
+    <script src="./gdansk.js"></script>
+    <script src="./script.js"></script>   
+  </body>  
+</html>
