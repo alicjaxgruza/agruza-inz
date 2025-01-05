@@ -216,7 +216,7 @@ const zuraw2 = (`<h2>Informacje</h2>
             normalny - 23 zł<br>
             ulgowy - 17 zł<br>
             bezpłatne zwiedzanie - środa<br><br>
-            <b>strona internetowa:</b><br> <a href="https://nmm.pl/zuraw/">https://nmm.pl/zuraw/</a>
+            <b>strona internetowa:</b><br> <a href="https://nmm.pl/zuraw/">https://nmm.pl/zuraw/</a><br><br>
                  <b>źródło zdjęcia:</b> <br>
                 <a href="https://pl.m.wikipedia.org/wiki/Plik:D%C5%82ugie_Pobrze%C5%BCe_in_Gda%C5%84sk_(Mot%C5%82awa).jpg">https://pl.m.wikipedia.org/wiki/Plik:D%C5%82ugie_Pobrze%C5%BCe_in_Gda%C5%84sk_(Mot%C5%82awa).jpg</a>
 

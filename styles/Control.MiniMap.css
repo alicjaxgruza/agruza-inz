@@ -37,18 +37,14 @@
 	border-radius: 0px;
 }
 
-.leaflet-control-minimap-toggle-display{
-	background-image: url("toggle.svg");
+.leaflet-control-minimap-toggle-display {
+	background-image: url("../ikony/toggle.svg");
 	background-size: cover;
 	position: absolute;
 	border-radius: 3px 0px 0px 0px;
 }
 
-.leaflet-oldie .leaflet-control-minimap-toggle-display{
-	background-image: url("images/toggle.png");
-}
-
-.leaflet-control-minimap-toggle-display-bottomright {
+.leaflet-control-minimap-toggle-display-bottomright{
 	bottom: 0;
 	right: 0;
 }
