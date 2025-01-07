@@ -160,6 +160,7 @@ display: flex;
   border-bottom: 3px solid #2d0707;
   cursor: pointer;
   margin-top: 6px;
+  background-color: transparent;
 }
 
 .informacje {
